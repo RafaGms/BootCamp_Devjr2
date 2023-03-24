@@ -23,7 +23,7 @@
 .container .proposta-enquete{
    text-align: center;
 }
-.container-cards h2{
+.container-cards h2,p{
    text-align: center;
 }
 .container-cards .inputs{
