@@ -1,6 +1,38 @@
-:root{
-   --first: #2C2965;
-   --second: #131047;
-   --third: #6B6B93;
-   --fourth: #ffa051;
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Comfortaa:wght@300;400;500;600;700&family=Poiret+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --first: #2c2965;
+  --second: #131047;
+  --third: #6b6b93;
+  --fourth: #ffa051;
+  --white: #ffff;
+  --black: #000;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+.container{
+   padding: 1rem;
+}
+.container .titulo-games{
+   text-align: center;
+}
+.container .proposta-enquete{
+   text-align: center;
+}
+.container-cards h2{
+   text-align: center;
+}
+.container-cards .inputs{
+   display: flex;
+   flex-direction: column;
+   gap: 16px
+}
+.container-cards .display-card{
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
 }
